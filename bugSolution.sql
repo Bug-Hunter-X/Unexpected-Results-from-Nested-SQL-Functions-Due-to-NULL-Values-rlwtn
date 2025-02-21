@@ -1,0 +1,1 @@
+The solution modifies the SQL query to explicitly check for and handle NULL values returned by the inner functions. This is done using `ISNULL()` or `COALESCE()`, which allow to provide alternative values if a NULL is encountered. This ensures that the query always produces the expected results, even when the inner functions return NULL.
